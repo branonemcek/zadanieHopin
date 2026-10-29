@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Editory
+.vscode/
+.idea/
+
+# Závislosti a buildy
+node_modules/
+dist/
+build/
+
+# Prostredie a tajomstvá
+.env
+.env.*
+*.pem
+*.key
+
+# Claude Code lokálne nastavenia
+.claude/settings.local.json
